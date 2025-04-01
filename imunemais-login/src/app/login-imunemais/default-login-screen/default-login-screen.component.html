@@ -1,9 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Imune+</title>
+    <title>Login - Imune+</title>
     <link rel="icon" type="image/x-icon" href="/imunemais-login/public/imunemais_icone.png">
-    <link rel="stylesheet" href="/imunemais-login/src/app/components/default-login-screen/default-login-screen.component.scss" type="text/css">
+    <link rel="stylesheet" href="/imunemais-login/src/app/login-imunemais/default-login-screen/default-login-screen.component.scss" type="text/css">
 </head>
 
 <body>
@@ -16,10 +16,10 @@
                 <h2>Login</h2>
                 <form>
                     <label for="cpf">CPF</label>
-                    <input type="text" id="cpf" placeholder="000.000.000-00">
+                    <input type="text" id="cpf" placeholder="000.000.000-00" required>
                     
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" placeholder="Digite sua senha...">
+                    <input type="password" id="senha" placeholder="Digite sua senha..." required>
                     
                     <button type="submit" class="login-button">Login</button>
                     <a href="#" class="forgot-password">Esqueceu sua senha?</a>
@@ -36,3 +36,4 @@
         </div>
     </div>
 </body>
+
