@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DefaultLoginScreenComponent } from "./components/default-login-screen/default-login-screen.component";
+import { DefaultLoginScreenComponent } from './login-imunemais/default-login-screen/default-login-screen.component';
+
 
 @Component({
   selector: 'app-root',
